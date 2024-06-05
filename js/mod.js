@@ -1,20 +1,20 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	name: "The LittleBigPlanet Tree",
+	id: "lbp",
+	author: "Stephen",
+	pointsName: "Cardboard",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	initialStartPoints: new Decimal (2), // Used for hard resets and new players
+	offlineLimit: 1000,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.01",
+	name: "Update 1",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
